@@ -126,7 +126,7 @@ Because the map is not detailed enough to georeferencing the site plan, so I do 
 
 6. Don't forget to save the **GCP Points File**.
 
-### Step 4. Georeference the Site Plan File
+### Step 4. Georeferencing the Site Plan File
 1. Click **Raster** on the menu toolbar > Click **Georeferencer** > Click **Georeferencer**, then a georeferencer dialogue will appear. Click **Open Raster**.
 2. Choose the **18. PUSKOPKAR -TAMAN GRAHA PENTA SIDOARJO - DS. BLURU KIDUL.tif** file. Always use **WGS 84** as coordinate reference system.
 3. Click **Add Point** to tag some georeference points on **Raster Image** and **Vector Image**. I add 4 points in this georeference (at least 3 points, more is better).
