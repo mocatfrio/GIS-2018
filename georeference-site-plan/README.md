@@ -46,27 +46,27 @@ Each student choose one site plan file to be digitized (the chosen file's number
 3. Open base map vector files of Sidoarjo district.
     * Click **Add Vector Layer** (marked by red rectangle).
   
-      ![screenshot-1](/georeference-site-plan/img/1.png)
+      ![screenshot-1](/georeference-site-plan/img/1.png "Figure 1")
 
     * Click **browse**.
   
-      ![screenshot-2](/georeference-site-plan/img/2.png)
+      ![screenshot-2](/georeference-site-plan/img/2.png "Figure 2")
 
     * Select all the **.shp** files, then click **open**.
   
-      ![screenshot-3](/georeference-site-plan/img/3.png)
+      ![screenshot-3](/georeference-site-plan/img/3.png "Figure 3")
 
     * The Coordinate Reference System Selector dialogue will come out. Just leave it default **(WGS 84)**, then click **OK**.
   
-      ![screenshot-4](/georeference-site-plan/img/4.png)
+      ![screenshot-4](/georeference-site-plan/img/4.png "Figure 4")
    
 4. All the **.shp** files are loaded, then set and sort the files as needed. We can swap the position (just drag and drop), press the check mark to disable or enable, change the color, or remove them.
   
-    ![screenshot-5](/georeference-site-plan/img/5.png)
+    ![screenshot-5](/georeference-site-plan/img/5.png "Figure 5")
 
     I just enable the **jalan_kec_sidoarjo** or the Sidoarjo street vector and **bts_kel_sidoarjo** or the Sidoarjo district borderline as the base map vector for now, but maybe I'll enable the others as needed.
 
-    ![screenshot-6](/georeference-site-plan/img/6.png)
+    ![screenshot-6](/georeference-site-plan/img/6.png "Figure 6")
 
 
 ### Step 3. Georeference the Screenshot of Spesific Area from Google Maps
@@ -74,38 +74,38 @@ Each student choose one site plan file to be digitized (the chosen file's number
 #### Step 3a. Take Some Screenshots from the Google Maps
 1. Take a screenshot of **Bluru Kidul Village** area because the site plan is located on Bluru Kidul Village.
 
-    ![screenshot-bluru-kidul](/georeference-site-plan/img/desa-bluru-kidul.png)
+    ![screenshot-bluru-kidul](/georeference-site-plan/img/desa-bluru-kidul.png "Figure 7")
 
 2. Take a screenshot again of **Puskopkar** area to make the maps more detail.
    
-    ![screenshot-puskopkar](/georeference-site-plan/img/puskopkar.png)
+    ![screenshot-puskopkar](/georeference-site-plan/img/puskopkar.png "Figure 8")
 
 #### Step 3b. Georeferencing Screenshot Part I
 
 1. Install the **Georeferencer GDAL** plugin first. Click **Plugins** menu > **Manage and Install Plugins** > Search **Georeference GDAL** > Check the box to enable the plugin
 
-    ![screenshot-7](/georeference-site-plan/img/7.png)
+    ![screenshot-7](/georeference-site-plan/img/7.png "Figure 9")
 
 2. To do georeferencing, click the **Raster** menu > Select **Georeferencer** > Click **Georeferencer**, then a georeferencer dialogue will come out. Click **Open Raster**.
 
-    ![screenshot-8](/georeference-site-plan/img/8.png)
+    ![screenshot-8](/georeference-site-plan/img/8.png "Figure 10")
 
 3. Choose the **Bluru Kidul Village Screenshot** and always use **WGS 84** as coordinate reference system.
 4. Click **Add Point** to tag some georeference points on **Raster Image** and **Vector Image** (at least 3 points, more is better).
    
-    ![screenshot-9](/georeference-site-plan/img/9.png)
+    ![screenshot-9](/georeference-site-plan/img/9.png "Figure 11")
    
 5. After add some points, then click **Start Georeferencing**.
    
-    ![screenshot-10](/georeference-site-plan/img/10.png)
+    ![screenshot-10](/georeference-site-plan/img/10.png "Figure 12")
 
     Follow the transformation settings below. I use **Polynomial 1** transformation type. The Polynomial algorithms 1-3 are among the most widely used algorithms introduced to match source and destination ground control points. Polynomial 1 preserves collinearity and allows scaling, translation and rotation only.
 
-    ![screenshot-11](/georeference-site-plan/img/11.png)
+    ![screenshot-11](/georeference-site-plan/img/11.png "Figure 13")
 
-    Georeferencing the screenshot of Bluru Kidul Village from google maps done with mean error **0.291192**.
+    Georeferencing the screenshot of Bluru Kidul Village from google maps done with mean error **0.291192** (can be seen in figure 12).
 
-    ![screenshot-12](/georeference-site-plan/img/12.png)
+    ![screenshot-12](/georeference-site-plan/img/12.png "Figure 14")
 
 #### Step 3c. Georeferencing Screenshot Part II
 
