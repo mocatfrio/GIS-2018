@@ -104,7 +104,7 @@ Each student choose one site plan file to be digitized (the chosen file's number
 
     I use **Polynomial 1** transformation type because its preserves collinearity and allows scaling, translation and rotation. The Polynomial algorithms 1-3 are among the most widely used algorithms introduced to match source and destination ground control points.
 
-6. Georeference of Bluru Kidul Village screenshot done with mean error **0.291192** (figure 12).
+6. Georeference of Bluru Kidul Village screenshot is done with mean error **0.291192** (figure 12).
 
     ![Screenshot 12](/georeference-site-plan/img/12.png "Figure 14")
 
@@ -119,8 +119,8 @@ Because the map is not detailed enough to georeferencing the site plan, so I do 
    
    ![Screenshot 13](/georeference-site-plan/img/13.png "Figure 15")
 
-4. After add some points, then click **Start Georeferencing**. Use **Polynomial 1** transformation type.
-5. Georeference of Puskopkar screenshot done with mean error **0.205479** (figure 15).
+4. After adding some points, then click **Start Georeferencing**. Use **Polynomial 1** transformation type.
+5. Georeference of Puskopkar screenshot is done with mean error **0.205479** (figure 15).
 
     ![Screenshot 14](/georeference-site-plan/img/14.png "Figure 16")
 
@@ -133,8 +133,8 @@ Because the map is not detailed enough to georeferencing the site plan, so I do 
    
    ![Screenshot 15](/georeference-site-plan/img/15.png "Figure 17")
 
-4. After add some points, then click **Start Georeferencing**. Use **Polynomial 1** transformation type.
-5. Georeference of PUSKOPKAR -TAMAN GRAHA PENTA SIDOARJO - DS. BLURU KIDUL site plan done with mean error **0.544327** (figure 17).
+4. After adding some points, then click **Start Georeferencing**. Use **Polynomial 1** transformation type.
+5. Georeference of PUSKOPKAR -TAMAN GRAHA PENTA SIDOARJO - DS. BLURU KIDUL site plan is done with mean error **0.544327** (figure 17).
    
     ![Screenshot 16](/georeference-site-plan/img/16.png "Figure 18")
 
