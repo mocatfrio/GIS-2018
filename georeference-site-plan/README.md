@@ -91,7 +91,7 @@ Each student choose one site plan file to be digitized (the chosen file's number
     ![screenshot-8](/georeference-site-plan/img/8.png "Figure 10")
 
 3. Choose the **Bluru Kidul Village Screenshot** and always use **WGS 84** as coordinate reference system.
-4. Click **Add Point** to tag some georeference points on **Raster Image** and **Vector Image** (at least 3 points, more is better).
+4. Click **Add Point** to tag some georeference points on **Raster Image** and **Vector Image**. I add 5 points in this georeference (at least 3 points, more is better).
    
     ![screenshot-9](/georeference-site-plan/img/9.png "Figure 11")
    
@@ -99,17 +99,49 @@ Each student choose one site plan file to be digitized (the chosen file's number
    
     ![screenshot-10](/georeference-site-plan/img/10.png "Figure 12")
 
-    Follow the transformation settings below. I use **Polynomial 1** transformation type. The Polynomial algorithms 1-3 are among the most widely used algorithms introduced to match source and destination ground control points. Polynomial 1 preserves collinearity and allows scaling, translation and rotation only.
+    Follow the transformation settings below. 
 
     ![screenshot-11](/georeference-site-plan/img/11.png "Figure 13")
 
-    Georeferencing the screenshot of Bluru Kidul Village from google maps done with mean error **0.291192** (can be seen in figure 12).
+    I use **Polynomial 1** transformation type because its preserves collinearity and allows scaling, translation and rotation. The Polynomial algorithms 1-3 are among the most widely used algorithms introduced to match source and destination ground control points.
+
+6. Georeference of Bluru Kidul Village screenshot done with mean error **0.291192** (figure 12).
 
     ![screenshot-12](/georeference-site-plan/img/12.png "Figure 14")
 
+7. Don't forget to save the **GCP Points File**.
+
 #### Step 3c. Georeferencing Screenshot Part II
+Because the map is not detailed enough to georeferencing the site plan, so I do step 3b again using the **screenshot of Puskopkar** area to make the map to be more detail. The steps are exactly the same with step 3b.
+
+1. Click the **Raster** menu > Select **Georeferencer** > Click **Georeferencer**, then a georeferencer dialogue will come out. Click **Open Raster**.
+2. Choose the **Puskopkar Screenshot** and always use **WGS 84** as coordinate reference system.
+3. Click **Add Point** to tag some georeference points on **Raster Image** and **Vector Image**. I add 5 points in this georeference (at least 3 points, more is better).
+   
+   ![screenshot-13](/georeference-site-plan/img/13.png "Figure 15")
+
+4. After add some points, then click **Start Georeferencing**. Use **Polynomial 1** transformation type.
+5. Georeference of Puskopkar screenshot done with mean error **0.205479** (figure 15).
+
+    ![screenshot-14](/georeference-site-plan/img/14.png "Figure 16")
+
+6. Don't forget to save the **GCP Points File**.
 
 ### Step 4. Georeference the Site Plan File
+1. Click the **Raster** menu > Select **Georeferencer** > Click **Georeferencer**, then a georeferencer dialogue will come out. Click **Open Raster**.
+2. Choose the **18. PUSKOPKAR -TAMAN GRAHA PENTA SIDOARJO - DS. BLURU KIDUL.tif** file. Always use **WGS 84** as coordinate reference system.
+3. Click **Add Point** to tag some georeference points on **Raster Image** and **Vector Image**. I add 4 points in this georeference (at least 3 points, more is better).
+   
+   ![screenshot-15](/georeference-site-plan/img/15.png "Figure 17")
+
+4. After add some points, then click **Start Georeferencing**. Use **Polynomial 1** transformation type.
+5. Georeference of PUSKOPKAR -TAMAN GRAHA PENTA SIDOARJO - DS. BLURU KIDUL site plan done with mean error **0.544327** (figure 17).
+   
+    ![screenshot-16](/georeference-site-plan/img/16.png "Figure 18")
+
+6. Don't forget to save the **GCP Points File**.
+
+
 ### Step 5. Site Plan Digitizing
 
 
