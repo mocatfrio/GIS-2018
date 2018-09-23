@@ -13,7 +13,7 @@
             - [Step 3a. Take Some Screenshots from the Google Maps](#step-3a-take-some-screenshots-from-the-google-maps)
             - [Step 3b. Georeferencing Screenshot Part I](#step-3b-georeferencing-screenshot-part-i)
             - [Step 3c. Georeferencing Screenshot Part II](#step-3c-georeferencing-screenshot-part-ii)
-        - [Step 4. Georeference the Site Plan File](#step-4-georeference-the-site-plan-file)
+        - [Step 4. Georeferencing the Site Plan File](#step-4-georeference-the-site-plan-file)
         - [Step 5. Site Plan Digitizing](#step-5-site-plan-digitizing)
     - [Credit](#credit)
 
