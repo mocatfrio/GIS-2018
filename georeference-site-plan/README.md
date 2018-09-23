@@ -38,13 +38,11 @@ Each student choose one site plan file to be digitized (the chosen file's number
 * Base map vector file : **Sidoarjo District** (the chosen site plan is located in Sidoarjo disctrict)
 * Some screenshots of specific area in the google maps, as much as needed
 
-> All the files can be downloaded at https://intip.in/filegis2018
-
 ### Step 2. Open the Base Map Vector Files
 1. Open QGIS Project.
-2. Make new project (ctrl-N).
+2. Make new project (Ctrl+N).
 3. Open base map vector files of Sidoarjo district.
-    * Click **Add Vector Layer** (marked by red rectangle).
+    * Click **Add Vector Layer** on the vector toolbar (marked by red rectangle).
   
       ![screenshot-1](/georeference-site-plan/img/1.png "Figure 1")
 
@@ -56,7 +54,7 @@ Each student choose one site plan file to be digitized (the chosen file's number
   
       ![screenshot-3](/georeference-site-plan/img/3.png "Figure 3")
 
-    * The Coordinate Reference System Selector dialogue will come out. Just leave it default **(WGS 84)**, then click **OK**.
+    * The Coordinate Reference System Selector dialogue will appear. Just leave it default **(WGS 84)**, then click **OK**.
   
       ![screenshot-4](/georeference-site-plan/img/4.png "Figure 4")
    
@@ -82,11 +80,11 @@ Each student choose one site plan file to be digitized (the chosen file's number
 
 #### Step 3b. Georeferencing Screenshot Part I
 
-1. Install the **Georeferencer GDAL** plugin first. Click **Plugins** menu > **Manage and Install Plugins** > Search **Georeference GDAL** > Check the box to enable the plugin
+1. Install the **Georeferencer GDAL** plugin first. Click **Plugins** on the menu toolbar > **Manage and Install Plugins** > Search **Georeference GDAL** > Check the box to enable the plugin
 
     ![screenshot-7](/georeference-site-plan/img/7.png "Figure 9")
 
-2. To do georeferencing, click the **Raster** menu > Select **Georeferencer** > Click **Georeferencer**, then a georeferencer dialogue will come out. Click **Open Raster**.
+2. To do georeferencing, click **Raster** on the menu toolbar > Click **Georeferencer** > Click **Georeferencer**, then a georeferencer dialogue will appear. Click **Open Raster**.
 
     ![screenshot-8](/georeference-site-plan/img/8.png "Figure 10")
 
@@ -114,7 +112,7 @@ Each student choose one site plan file to be digitized (the chosen file's number
 #### Step 3c. Georeferencing Screenshot Part II
 Because the map is not detailed enough to georeferencing the site plan, so I do step 3b again using the **screenshot of Puskopkar** area to make the map to be more detail. The steps are exactly the same with step 3b.
 
-1. Click the **Raster** menu > Select **Georeferencer** > Click **Georeferencer**, then a georeferencer dialogue will come out. Click **Open Raster**.
+1. Click **Raster** on the menu toolbar > Click **Georeferencer** > Click **Georeferencer**, then a georeferencer dialogue will appear. Click **Open Raster**.
 2. Choose the **Puskopkar Screenshot** and always use **WGS 84** as coordinate reference system.
 3. Click **Add Point** to tag some georeference points on **Raster Image** and **Vector Image**. I add 5 points in this georeference (at least 3 points, more is better).
    
@@ -128,7 +126,7 @@ Because the map is not detailed enough to georeferencing the site plan, so I do 
 6. Don't forget to save the **GCP Points File**.
 
 ### Step 4. Georeference the Site Plan File
-1. Click the **Raster** menu > Select **Georeferencer** > Click **Georeferencer**, then a georeferencer dialogue will come out. Click **Open Raster**.
+1. Click **Raster** on the menu toolbar > Click **Georeferencer** > Click **Georeferencer**, then a georeferencer dialogue will appear. Click **Open Raster**.
 2. Choose the **18. PUSKOPKAR -TAMAN GRAHA PENTA SIDOARJO - DS. BLURU KIDUL.tif** file. Always use **WGS 84** as coordinate reference system.
 3. Click **Add Point** to tag some georeference points on **Raster Image** and **Vector Image**. I add 4 points in this georeference (at least 3 points, more is better).
    
@@ -141,16 +139,28 @@ Because the map is not detailed enough to georeferencing the site plan, so I do 
 
 6. Don't forget to save the **GCP Points File**.
 
-
 ### Step 5. Site Plan Digitizing
+1. Make new shapefile layer. Click **Layer** on the menu toolbar > Click **Create Layer** > Click **New Shapefile Layer** (Ctrl+Shift+N).
+2. The New Shapefile Layer dialogue will appear. Select **Line** type and fill the new layer's name.
 
+    ![screenshot-17](/georeference-site-plan/img/17.png "Figure 19")
 
+    Then, a new layer will be created in the layers panel.
 
+    ![screenshot-18](/georeference-site-plan/img/18.png "Figure 20")
+    
+3. Select the new shapefile layer. Click **Toggle Editing** on the plugin toolbar, then click **Add Feature**.
 
+    ![screenshot-19](/georeference-site-plan/img/19.png "Figure 21")
 
+4. Draw the line following the site plan which has been georeferenced. This process called Site Plan Digitization.
 
+    ![screenshot-20](/georeference-site-plan/img/20.png "Figure 22")
 
+5. If all is done, click **Save Layer Edits**.
+6. Finally, save the projects (Ctrl+S) and Site Plan Digitization is done!
 
+    ![screenshot-21](/georeference-site-plan/img/21.png "Figure 23")
 
-
-<!-- > More documentation: https://github.com/mocatfrio/GIS-2018 -->
+> More documentation on https://github.com/mocatfrio/GIS-2018
+> All the files can be downloaded at https://intip.in/filegis2018
