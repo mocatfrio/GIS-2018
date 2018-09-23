@@ -43,18 +43,28 @@ Each student choose one site plan file to be digitized (the chosen file's number
 2. Make new project (ctrl-N)
 3. Open base map vector files of Sidoarjo district
     * Click **Add Vector Layer** (marked by red rectangle)
+  
       ![screenshot-1](/georeference-site-plan/img/1.png)
+
     * Click **browse**
+  
       ![screenshot-2](/georeference-site-plan/img/2.png)
+
     * Select all the **.shp** files, then click **open**
+  
       ![screenshot-3](/georeference-site-plan/img/3.png)
+
     * The Coordinate Reference System Selector dialogue will come out. Just leave it default **(WGS 84)**, then click **OK**
+  
       ![screenshot-4](/georeference-site-plan/img/4.png)
    
 4. All the **.shp** files are loaded, then set and sort the files as needed. We can swap the position (just drag and drop), press the check mark to disable or enable, change the color, or remove them.
-  ![screenshot-5](/georeference-site-plan/img/5.png)
-  I just enable the **jalan_kec_sidoarjo** or the Sidoarjo street vector and **bts_kel_sidoarjo** or the Sidoarjo district borderline as the base map vector for now, but maybe I'll enable the others as needed.
-  ![screenshot-6](/georeference-site-plan/img/6.png)
+  
+    ![screenshot-5](/georeference-site-plan/img/5.png)
+
+    I just enable the **jalan_kec_sidoarjo** or the Sidoarjo street vector and **bts_kel_sidoarjo** or the Sidoarjo district borderline as the base map vector for now, but maybe I'll enable the others as needed.
+
+    ![screenshot-6](/georeference-site-plan/img/6.png)
 
 
 ### Step 3. Geo-Reference the Screenshot of Spesific Area from Google Maps
