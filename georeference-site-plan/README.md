@@ -1,17 +1,19 @@
 ## Task 1
-# Site Plan Geo-Reference and Digitization 
-By: Hafara Firdausi (05111540000043) - Geographic Information System
+# Site Plan Georeference and Digitization 
 
 ## Table of Content
-- [Site Plan Geo-Reference and Digitization](#site-plan-geo-reference-and-digitization)
+- [Site Plan Georeference and Digitization](#site-plan-georeference-and-digitization)
   - [Table of Content](#table-of-content)
   - [Description](#description)
     - [Requirements](#requirements)
   - [Documentation](#documentation)
     - [Step 1. Preparation](#step-1-preparation)
     - [Step 2. Open the Base Map Vector Files](#step-2-open-the-base-map-vector-files)
-    - [Step 3. Geo-Reference the Screenshot of Spesific Area from Google Maps](#step-3-geo-reference-the-screenshot-of-spesific-area-from-google-maps)
-    - [Step 4. Geo-Reference the Site Plan File](#step-4-geo-reference-the-site-plan-file)
+    - [Step 3. Georeference the Screenshot of Spesific Area from Google Maps](#step-3-georeference-the-screenshot-of-spesific-area-from-google-maps)
+      - [Step 3a. Take Some Screenshots from the Google Maps](#step-3a-take-some-screenshots-from-the-google-maps)
+      - [Step 3b. Georeferencing Screenshot Part I](#step-3b-georeferencing-screenshot-part-i)
+      - [Step 3c. Georeferencing Screenshot Part II](#step-3c-georeferencing-screenshot-part-ii)
+    - [Step 4. Georeference the Site Plan File](#step-4-georeference-the-site-plan-file)
     - [Step 5. Site Plan Digitizing](#step-5-site-plan-digitizing)
 
 <!-- /code_chunk_output -->
@@ -39,22 +41,22 @@ Each student choose one site plan file to be digitized (the chosen file's number
 > All the files can be downloaded at https://intip.in/filegis2018
 
 ### Step 2. Open the Base Map Vector Files
-1. Open QGIS Project
-2. Make new project (ctrl-N)
-3. Open base map vector files of Sidoarjo district
-    * Click **Add Vector Layer** (marked by red rectangle)
+1. Open QGIS Project.
+2. Make new project (ctrl-N).
+3. Open base map vector files of Sidoarjo district.
+    * Click **Add Vector Layer** (marked by red rectangle).
   
       ![screenshot-1](/georeference-site-plan/img/1.png)
 
-    * Click **browse**
+    * Click **browse**.
   
       ![screenshot-2](/georeference-site-plan/img/2.png)
 
-    * Select all the **.shp** files, then click **open**
+    * Select all the **.shp** files, then click **open**.
   
       ![screenshot-3](/georeference-site-plan/img/3.png)
 
-    * The Coordinate Reference System Selector dialogue will come out. Just leave it default **(WGS 84)**, then click **OK**
+    * The Coordinate Reference System Selector dialogue will come out. Just leave it default **(WGS 84)**, then click **OK**.
   
       ![screenshot-4](/georeference-site-plan/img/4.png)
    
@@ -67,8 +69,47 @@ Each student choose one site plan file to be digitized (the chosen file's number
     ![screenshot-6](/georeference-site-plan/img/6.png)
 
 
-### Step 3. Geo-Reference the Screenshot of Spesific Area from Google Maps
-### Step 4. Geo-Reference the Site Plan File
+### Step 3. Georeference the Screenshot of Spesific Area from Google Maps
+
+#### Step 3a. Take Some Screenshots from the Google Maps
+1. Take a screenshot of **Bluru Kidul Village** area because the site plan is located on Bluru Kidul Village.
+
+    ![screenshot-bluru-kidul](/georeference-site-plan/img/desa-bluru-kidul.png)
+
+2. Take a screenshot again of **Puskopkar** area to make the maps more detail.
+   
+    ![screenshot-puskopkar](/georeference-site-plan/img/puskopkar.png)
+
+#### Step 3b. Georeferencing Screenshot Part I
+
+1. Install the **Georeferencer GDAL** plugin first. Click **Plugins** menu > **Manage and Install Plugins** > Search **Georeference GDAL** > Check the box to enable the plugin
+
+    ![screenshot-7](/georeference-site-plan/img/7.png)
+
+2. To do georeferencing, click the **Raster** menu > Select **Georeferencer** > Click **Georeferencer**, then a georeferencer dialogue will come out. Click **Open Raster**.
+
+    ![screenshot-8](/georeference-site-plan/img/8.png)
+
+3. Choose the **Bluru Kidul Village Screenshot** and always use **WGS 84** as coordinate reference system.
+4. Click **Add Point** to tag some georeference points on **Raster Image** and **Vector Image** (at least 3 points, more is better).
+   
+    ![screenshot-9](/georeference-site-plan/img/9.png)
+   
+5. After add some points, then click **Start Georeferencing**.
+   
+    ![screenshot-10](/georeference-site-plan/img/10.png)
+
+    Follow the transformation settings below. I use **Polynomial 1** transformation type. The Polynomial algorithms 1-3 are among the most widely used algorithms introduced to match source and destination ground control points. Polynomial 1 preserves collinearity and allows scaling, translation and rotation only.
+
+    ![screenshot-11](/georeference-site-plan/img/11.png)
+
+    Georeferencing the screenshot of Bluru Kidul Village from google maps done with mean error **0.291192**.
+
+    ![screenshot-12](/georeference-site-plan/img/12.png)
+
+#### Step 3c. Georeferencing Screenshot Part II
+
+### Step 4. Georeference the Site Plan File
 ### Step 5. Site Plan Digitizing
 
 
