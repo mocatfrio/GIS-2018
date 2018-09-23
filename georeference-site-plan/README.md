@@ -43,13 +43,13 @@ Each student choose one site plan file to be digitized (the chosen file's number
 2. Make new project (ctrl-N)
 3. Open base map vector files of Sidoarjo district
     * Click **Add Vector Layer** (marked by red rectangle)
-  ![screenshot-1](/georeference-site-plan/img/1.png)
+      ![screenshot-1](/georeference-site-plan/img/1.png)
     * Click **browse**
-  ![screenshot-2](/georeference-site-plan/img/2.png)
+      ![screenshot-2](/georeference-site-plan/img/2.png)
     * Select all the **.shp** files, then click **open**
-  ![screenshot-3](/georeference-site-plan/img/3.png)
+      ![screenshot-3](/georeference-site-plan/img/3.png)
     * The Coordinate Reference System Selector dialogue will come out. Just leave it default **(WGS 84)**, then click **OK**
-  ![screenshot-4](/georeference-site-plan/img/4.png)
+      ![screenshot-4](/georeference-site-plan/img/4.png)
    
 4. All the **.shp** files are loaded, then set and sort the files as needed. We can swap the position (just drag and drop), press the check mark to disable or enable, change the color, or remove them.
   ![screenshot-5](/georeference-site-plan/img/5.png)
