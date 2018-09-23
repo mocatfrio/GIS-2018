@@ -1,42 +1,43 @@
 ## Task 1
 # Site Plan Georeference and Digitization 
 
-## Table of Content
+## Table of Contents
 - [Site Plan Georeference and Digitization](#site-plan-georeference-and-digitization)
-  - [Table of Content](#table-of-content)
-  - [Description](#description)
-    - [Requirements](#requirements)
-  - [Documentation](#documentation)
-    - [Step 1. Preparation](#step-1-preparation)
-    - [Step 2. Open the Base Map Vector Files](#step-2-open-the-base-map-vector-files)
-    - [Step 3. Georeference the Screenshot of Spesific Area from Google Maps](#step-3-georeference-the-screenshot-of-spesific-area-from-google-maps)
-      - [Step 3a. Take Some Screenshots from the Google Maps](#step-3a-take-some-screenshots-from-the-google-maps)
-      - [Step 3b. Georeferencing Screenshot Part I](#step-3b-georeferencing-screenshot-part-i)
-      - [Step 3c. Georeferencing Screenshot Part II](#step-3c-georeferencing-screenshot-part-ii)
-    - [Step 4. Georeference the Site Plan File](#step-4-georeference-the-site-plan-file)
-    - [Step 5. Site Plan Digitizing](#step-5-site-plan-digitizing)
+    - [Table of Contents](#table-of-contents)
+    - [Task's Description](#tasks-description)
+        - [Requirements](#requirements)
+    - [Documentation](#documentation)
+        - [Step 1. Preparation](#step-1-preparation)
+        - [Step 2. Open the Base Map Vector Files](#step-2-open-the-base-map-vector-files)
+        - [Step 3. Georeference the Screenshot of Spesific Area from Google Maps](#step-3-georeference-the-screenshot-of-spesific-area-from-google-maps)
+            - [Step 3a. Take Some Screenshots from the Google Maps](#step-3a-take-some-screenshots-from-the-google-maps)
+            - [Step 3b. Georeferencing Screenshot Part I](#step-3b-georeferencing-screenshot-part-i)
+            - [Step 3c. Georeferencing Screenshot Part II](#step-3c-georeferencing-screenshot-part-ii)
+        - [Step 4. Georeference the Site Plan File](#step-4-georeference-the-site-plan-file)
+        - [Step 5. Site Plan Digitizing](#step-5-site-plan-digitizing)
+    - [Credit](#credit)
 
 <!-- /code_chunk_output -->
 
-## Description
+## Task's Description
 
 Each student choose one site plan file to be digitized (the chosen file's number must be matched with student's attendance number which can be seen in Integra). Do geo-reference of selected site plan map, so it can be displayed on the map according to its district. Digitize the existing road sections, then present the results in the good map composing.
  
 ### Requirements
-1. Download QGIS Project software on the official site (https://qgis.org/id/site/forusers/download.html), then install it
+1. Download QGIS Project software on the official site (https://qgis.org/id/site/forusers/download.html), then install it.
 2. Download some materials needed:
-    *  Site plan raster files (.TIFF) of some districts in Sidoarjo
-    *  Base map vector files (shape file) of some districts in Sidoarjo
+    *  Site plan raster files (.TIFF) of some districts in Sidoarjo.
+    *  Base map vector files (shape file) of some districts in Sidoarjo.
   
-3. Screenshot of some areas selected on the google map (http://maps.google.com)
+3. Screenshot of some specific areas on the google maps (http://maps.google.com).
 
 ## Documentation
 ### Step 1. Preparation
-* Environment : **Linux Mint 18.3 Sylvia**
-* Software : **QGIS Project version 2.18.16**
-* Site plan raster file : **18. PUSKOPKAR - TAMAN GRAHA PENTA SIDOARJO - DS. BLURU KIDUL** (my attendance number is 18)
-* Base map vector file : **Sidoarjo District** (the chosen site plan is located in Sidoarjo disctrict)
-* Some screenshots of specific area in the google maps, as much as needed
+* Environment : **Linux Mint 18.3 Sylvia**.
+* Software : **QGIS Project version 2.18.16**.
+* Site plan raster file : **18. PUSKOPKAR - TAMAN GRAHA PENTA SIDOARJO - DS. BLURU KIDUL** (my attendance number is 18).
+* Base map vector file : **Sidoarjo District** (the chosen site plan is located in Sidoarjo district).
+* Some screenshots of specific area in the google maps, as much as needed.
 
 ### Step 2. Open the Base Map Vector Files
 1. Open QGIS Project.
@@ -153,14 +154,14 @@ Because the map is not detailed enough to georeferencing the site plan, so I do 
 
     ![screenshot-19](/georeference-site-plan/img/19.png "Figure 21")
 
-4. Draw the line following the site plan which has been georeferenced. This process called Site Plan Digitization.
+4. Draw the line following the site plan which has been georeferenced. This process called Site Plan Digitization. If all is done, click **Save Layer Edits**.
 
     ![screenshot-20](/georeference-site-plan/img/20.png "Figure 22")
 
-5. If all is done, click **Save Layer Edits**.
 6. Finally, save the projects (Ctrl+S) and Site Plan Digitization is done!
 
     ![screenshot-21](/georeference-site-plan/img/21.png "Figure 23")
 
-> More documentation on https://github.com/mocatfrio/GIS-2018
-> All the files can be downloaded at https://intip.in/filegis2018
+## Credit
+* More documentation: https://github.com/mocatfrio/GIS-2018
+* All the files can be downloaded at https://intip.in/filegis2018
